@@ -1,0 +1,11 @@
+n = input("Enter the Number your want to print upto: ")
+int(n)
+
+for answer in range(0, n+1):
+    if answer%3 ==0 and answer%5 ==0:
+        answer == "FizzBuzz"
+    elif answer%3 == 0:
+        answer = "Fizz"
+    elif answer%5 == 0:
+        answer = "Buzz"
+    print(answer)
